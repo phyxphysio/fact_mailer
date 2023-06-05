@@ -17,7 +17,7 @@ def fact_mailer():
 
     try:
         #Get credentials from config file
-        with open('SMTP Project/config.json', 'r') as config_file:
+        with open('config copy.json', 'r') as config_file:
             config = json.load(config_file)
 
         my_email = config['Email']['my_email']
